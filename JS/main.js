@@ -55,6 +55,6 @@ submitAnswer.addEventListener("click", function (event) {
 
     let score = (marks/total)*100;
 
-    alert("your score is " + score + "%");
+    alert("Your score is " + score + "%");
 
 });
