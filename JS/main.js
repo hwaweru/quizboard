@@ -62,7 +62,7 @@ submitAnswer.addEventListener("click", function (event) {
         level += "Excellent";
     }
 
-    else if(score >= 50 && score >= 80 ){
+    else if(score >= 50 && score <= 80 ){
         level += "Fair";
     }
 
@@ -71,5 +71,8 @@ submitAnswer.addEventListener("click", function (event) {
 
     }
     alert("Your score is " + score + "%" + level);
+    
+    //$("#ansSheet").text("Your score is " + score + "%" + level");
+    //$("#results").removeClass("d-none");
     //$("#finalScore").text("Your score is " + score + "%" + level)
 })});
