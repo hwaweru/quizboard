@@ -1,21 +1,20 @@
 body {
-    background-color: rgb(173, 230, 191);
-  }
-  img {
-    border-style: solid;
-    background-color: blue;
-    float: left;
-    margin: 10px;
-  }
-  title {
-    font-style: italic;
-  }
-  div {
-    width: 750px;
-    border: 15px;
-    padding: 5px;
-    margin: 5px;
-  }
-h2{
-  
+  background-color: rgb(173, 230, 191);
+}
+img {
+  border-style: solid;
+  background-color: blue;
+  float: left;
+  margin: 10px;
+}
+title {
+  font-style: italic;
+}
+div {
+  width: 750px;
+  border: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+h2 {
 }
