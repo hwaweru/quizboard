@@ -20,10 +20,11 @@
 //    });;
 //     submitAns.addEventListener("click",function(event){
 //     alert("Your score is"+ marks)};
-
+$(document).ready(function()){
 const quizAnswers = document.querySelectorAll(".ouranswers");
 
 const submitAnswer = document.querySelector("#submit_ans");
+//const finalAnswer
 
 let marks = 0;
 
@@ -54,7 +55,21 @@ quizAnswers.forEach(function (jibu) {
 submitAnswer.addEventListener("click", function (event) {
 
     let score = (marks/total)*100;
+    let level = "";
 
+
+    if (score > 80){
+        level += "Excellent";
+    }
+
+    else if(score >= 50 && score >= 80 ){
+        level += "Fair";
+    }
+
+    else{
+        level += "\nPoor performance, Please retake test.";
+
+    }
     alert("Your score is " + score + "%");
-
-});
+    $("#finalScore").text()
+})};
