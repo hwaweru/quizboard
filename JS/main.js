@@ -22,7 +22,7 @@
 //     alert("Your score is"+ marks)};
 $(document).ready(function() {
 const quizAnswers = document.querySelectorAll(".ouranswers");
-
+//const finishButton=document.querySelector(#AnsSheet)
 const submitAnswer = document.querySelector("#submit_ans");
 //const finalAnswer
 
