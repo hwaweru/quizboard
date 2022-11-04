@@ -20,7 +20,7 @@
 //    });;
 //     submitAns.addEventListener("click",function(event){
 //     alert("Your score is"+ marks)};
-$(document).ready(function()){
+$(document).ready(function() {
 const quizAnswers = document.querySelectorAll(".ouranswers");
 
 const submitAnswer = document.querySelector("#submit_ans");
@@ -67,9 +67,9 @@ submitAnswer.addEventListener("click", function (event) {
     }
 
     else{
-        level += "\nPoor performance, Please retake test.";
+        level += "Poor performance, Please retake test.";
 
     }
-    alert("Your score is " + score + "%");
-    $("#finalScore").text()
-})};
+    alert("Your score is " + score + "%" + level);
+    //$("#finalScore").text("Your score is " + score + "%" + level)
+})});
