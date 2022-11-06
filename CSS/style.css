@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(173, 230, 191);
+  background-color: lightblue;
 }
 img {
   border-style: solid;
@@ -17,7 +17,4 @@ div {
   margin: 5px;
 }
 h2 {font-size: larger;
-}
-p{
-  
 }

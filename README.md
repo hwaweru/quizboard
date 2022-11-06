@@ -18,7 +18,7 @@ My former high school has started an after-school computer club. The club is fin
 
 ## BDD
 
--See a small description of the Quiz Board on the landing page.
+-See an invitation to attempt the Javascript Language test on the Quiz Board on the landing page.
 -Read the question.
 -Select the correct answers.
 -Answer all questions.
