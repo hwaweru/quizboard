@@ -1,27 +1,28 @@
 ## Project Name
 
-Ghana's Akan Naming Culture
+JAVASCRIPT QUIZ BOARD
 
-#### This project is about Ghana's Akan naming culture, Version Date: 7th Oct 2022
+#### This project is a Javascript Language Quiz Board for my former high school Computer club students, Version Date: 4th Nov 2022
 
 #### By **Hellen Waweru**
 
 ## Project Description
 
-This project is my week two independent project, and its about Ghana's Akan naming culture.The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. I have built a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+My former high school has started an after-school computer club. The club is finishing a course on Javascript Language and the students will have to take a test before completing the course. I have therefore created a website on which students can take the test.They will answer the multiple choice questions on the website; and after submitting their answers they will get a percentage score based on the correct answers submitted.
 
 ## Setup/Installation Requirements
 
-- Git clone: https://github.com/hwaweru/week2work.git
+- Git clone: https://github.com/hwaweru/quizboard.git
 - Launch code on VS code.
 - Launch on live link.
 
 ## BDD
 
--See a small description of what the application does on the landing page.
--Enter birthday through a form
--Choose gender.
--Click the submit button to see what my Akan name would be
+-See a small description of the Quiz Board on the landing page.
+-Read the question.
+-Select the correct answers
+-Answer all
+-Click the submit button once all questions are answered
 
 ## Known Bugs
 
